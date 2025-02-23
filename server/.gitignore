@@ -1,0 +1,13 @@
+# Node.js dependencies
+node_modules/
+
+# Environment files
+.env
+
+# Logs
+*.log
+
+# Build files
+dist/
+
+# Any other server-specific files you want to exclude
