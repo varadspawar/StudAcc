@@ -31,4 +31,4 @@ const validate = (data) => {
     return { error }; 
 };
 
-module.export = {user, validate};
+module.export = {User, validate};
