@@ -28,7 +28,7 @@ router.post("/", async (req, res) => {
         console.log('Password hashed successfully');
 
         //save the data to the database
-        await new User({...req, password: hashPassword}).save();
+        await new User({...req.body, password: hashPassword}).save();
         console.log("User created successfully");
 
         //send response
